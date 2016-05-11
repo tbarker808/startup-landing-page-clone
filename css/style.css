@@ -1,17 +1,65 @@
-body {
-	background-color: LightGray;
+/* Navigation section*/
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto';
+	color: #838994;
+	font-size: 16px;
+	margin-top: 24px;
+	margin-right: 75px;
+
+}
+.top-navigation .links li {
+	display: inline-block;
+	margin: 0 18px;
+}
+.top-navigation .links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+.top-navigation .logo {
+	margin: 12px 45px;
 }
 
-/*Navigation Section*/
- .top-navigation {
- 	background-color: #fff;
- }
- .top-navigation > .content {
- 	width: 970px;
- 	height: 70px;
- 	margin: auto;
- }
- .logo {
- 	margin-left: 14px;
- 	margin-top: 14px;
- }
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45.938rem;
+    overflow: auto;
+   
+}
+.introduction h1,
+.introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.introduction h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
+button {
+	display: block;
+	margin: 0 auto;
+	width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+button:hover {
+	background-color: #d9400e;
+	border-color: #cf3e0e;
+	cursor: pointer;
+}

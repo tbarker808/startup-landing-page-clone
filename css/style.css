@@ -29,7 +29,7 @@
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 45.938rem;
+    height: 47rem;
     overflow: auto;
    
 }
@@ -46,6 +46,7 @@
 .introduction h3 {
     margin-top: 1.25rem;
     font-size: 1.563rem;
+
 }
 button {
 	display: block;
